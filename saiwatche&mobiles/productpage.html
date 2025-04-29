@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Products - Sai Watches & Mobile Store</title>
+</head>
+<body>
+    <header>
+        <h1>Sai Watches & Mobile Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <h3>Watch 1</h3>
+                <p>Price: $100</p>
+                <button onclick="addToCart('Watch 1', 100)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <h3>Mobile 1</h3>
+                <p>Price: $500</p>
+                <button onclick="addToCart('Mobile 1', 500)">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Sai Watches & Mobile Store</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
